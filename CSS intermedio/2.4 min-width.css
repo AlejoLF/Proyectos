@@ -1,0 +1,11 @@
+MIN-WIDTH
+
+Asi como hablamos de un ancho maximo, tambien podemos definir un ancho minimo.
+
+La propiedad es min-width y determina el ancho minimo para un caja.
+
+Ej:
+	h1 {
+		max-width: 800px;
+		max-width: 150px;
+	}

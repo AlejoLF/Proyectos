@@ -1,0 +1,25 @@
+Display
+
+Display en español significa "mostrar", y esta propiedad nos permite definir como se va
+a mostrar cierta etiqueta.
+
+Valores de la propiedad display:
+
+Block: 		al aplicar este valor lo que hacemos es decirle a la etiqueta que se comporte
+		como una caja, es decir como ya venimos viendo. Con un contenido, un padding,
+		un border, y un margin.
+
+Inline: 	Este valor hace que las etiquetas se comporten como texto, es decir que no se
+		comporten como cajas, sino que fluyan con el texto. Este valor se suele usar en
+		los links, ya que los links a veces empiezan en un renglon y continuan en otro.
+		Y ahi ya no tienen forma de caja. Entonces estos elementos se comportan como
+		texto y fluyen renglon tras renglon.
+
+Inline-block: 	Es como un hibrido entre el comportamiento como caja y el comportamiento como
+		texto. La idea es que se trata de cajas, que tienen su respectivo contenido,
+		padding, border, y margen. Pero que pueden ir apiladas una al lado de la otra
+		con el fluir del texto en renglones. Este valor puede usarse con las
+		etiquetas strong o em que suele haber muchas en un texto.
+
+None:		Este valor hace "desaparecer" la caja del navegador. Hace que la caja no
+		aparezca directamente, no ocupe lugar dentro del navegador.

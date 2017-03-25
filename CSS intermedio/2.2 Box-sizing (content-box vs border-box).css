@@ -1,0 +1,28 @@
+BOX SIZING
+
+La propiedad box sizing ayuda a definir mejor el ancho y el alto de la caja.
+Cuando hablamos de la propiedad width y height dijimos que estas propiedades no incluian el padding, el border, 
+ni el margen de la caja.
+
+La propiedad Box-sizing nos permite decilre al navegador si queremos que el ancho y el alto 
+incluyan o no al padding, al border, y al margin.
+
+Esto nos permite no estar haciendo cuentas constantemente y entonces cada vez que le digamos un ancho de una caja, 
+nos vamos a estar refiriendo al ancho TOTAL. 
+Incluyendo al padding, al border, y al margin.
+
++	Para hacer esto tenemos que ultilizar la propiedad box-sizing y puede tener dos valores: 
+
+-	content-box (es el que viene por default en el navegador):
+	el width y el height no incluyen el padding y el border, solamente se modifica la caja de contenido.
+
+-	border-box:
+	El width y el height incluyen el padding y el border. Asique ya no hay que estar sacando cuentas sumando todo.
+
+	Ej:
+
+	header {
+		box-sizing: border-box;
+		width: 200px;
+		height: 100px;
+	}

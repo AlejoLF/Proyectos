@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS intermedio</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style_box_model.css">
+</head>
+<body>
+	<header>
+		<h1>CSS intermedio</h1>
+		<ol>
+			<li><a href="../HOME.html">Home</a></li>
+			<li><a href="../BOX MODEL.html" id="actual">BOX MODEL</a></li>
+			<li><a href="../BACKGROUND.html">Background</a></li>
+		</ol>
+		<ol>
+			<li><a href="Box-sizing (content-box vs border-box).html">Box-sizing (content-box vs border-box)</a></li>
+			<li><a href="Max-width.html">Max-width</a></li>
+			<li><a href="Min-width.html">Min-width</a></li>
+			<li><a href="Max-height.html">Max-height</a></li>
+			<li><a href="Min-height.html">Min-height</a></li>
+			<li><a href="Margenes automaticos.html" id="actual">Margenes automaticos</a></li>
+			<li><a href="Display (block, inline, inline-block, none).html">Display (block, inline, inline-block, none).html</a></li>
+		</ol>
+	</header>
+	<div id="contenido">
+		<h2>MÁRGENES AUTOMATICOS</h2>
+
+		<p>Ya vimos como centrar un texto dentro de una caja (text-aling: center;), ahora vamos a ver como centrar una caja dentro de otra caja.</p>
+
+		<p>Para hacer esto lo que podemos hacer es setear los parametros del margen izquierdo y el margen derecho en automaticos.</p>
+		<p>Ej:</p>
+		<article>
+			<p>div {</p>
+				<p id="sangria">margin-left: auto;</p>
+				<p id="sangria">margin-right: auto;</p>
+			<p>}
+		</article>
+		<p>Si queremos que la caja se alinie a la derecha o a la izquierda, no que este centrada, lo que debemos hacer es setear en automatico uno solo de los margenes.</p>
+		<p>Ej:</p>
+		<article>
+		<h4>Caja centrada a la izquierda:</h4>			
+			
+		<p>caja {</p>									
+			<p id="sangria">margin-right: auto;</p>
+		<p>}</p>						   				
+		
+		<h4>caja centrada a la derecha:</h4>
+		
+		<p>caja {</p>
+			<p id="sangria">margin-left:auto;</p>
+		<p>}</p>
+		</article>
+	</div>
+	<footer>
+		<p>Hecho con amor <3</p>
+	</footer>
+</body>
+</html>

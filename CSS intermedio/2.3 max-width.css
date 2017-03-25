@@ -1,0 +1,14 @@
+MAX-WIDTH
+
+Nos permite definir el ancho de una caja pero sin dejarlo quieto en esa medida.
+
+Definimos un tope máximo de ancho por si el usuario ensancha la ventana del navegador,
+esa caja se va a estirar hasta cierto punto.
+
+Ej:
+	h1 {
+		max-width: 600px;
+	}
+
+Quiere decir que el titulo h1 va a tener un ancho máximo de 600px, el titulo no se va
+a ensanchar mas que eso.

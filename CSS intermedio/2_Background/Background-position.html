@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS intermedio</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style_background.css">
+</head>
+<body>
+	<header>
+		<h1>CSS intermedio</h1>
+		<ol>
+			<li><a href="../HOME.html">Home</a></li>
+			<li><a href="../BOX MODEL.html">BOX MODEL</a></li>
+			<li><a href="../BACKGROUND.html" id="actual">Background</a></li>
+		</ol>
+		<ol>
+			<li><a href="Background-color.html">Background-color</a></li>
+			<li><a href="Background-image.html">Background-image</a></li>
+			<li><a href="Background-repeat.html">Background-repeat</a></li>
+			<li><a href="Background-position.html" id="actual">Background-position</a></li>
+			<li><a href="Background-attachment.html">Background-attachment</a></li>
+		</ol>
+	</header>
+	<div id="contenido">
+		<h2>background-position</h2>
+
+		<p>Al elegir como fondo de una etiqueta una imagen, y particularme hacer que esa imagen no se repita, el navegador por default nos posiciona la imagen en la esquina superior derecha. Para cambiar esto se usa la propiedad background-position.</p>
+		
+		<p>Los valores pueden ser <strong>top</strong>, <strong>bottom</strong>, <strong>lef</strong>, <strong>right</strong> o <strong>center</strong>. Y ademas pueden combinarse,
+		es decir que si quiero ubicar la imagen en la esquina superior izquierda puedo poner:</p>
+
+		<article><p>background-position: top left;</p></article>
+
+		<p>Y asi todas las combinaciones posibles. Si pongo center solo, la imagen va a estar centrada con respecto a los dos ejes. Ademas podemos ubicar la imagen con coordenadas, el primer nro es la coordenada en X y el segundo nro es la coordenada en Y. Ej:</p>
+
+		<article><p>background-position: 10px 20px;</p></article>
+
+		<p>Sabiendo lo de las coordenadas podemos combinar las palabras y los nros, por ejemplo si quiero que la imagen este centrada con respecto al eje x, y verticalmente quiero que este a 30px de distancia del margen superior:</p>
+		<article>
+		<p>background-position: center 30px;</p>
+		</article>
+	</div>
+	<footer>
+		<p>Hecho con amor <3</p>
+	</footer>
+</body>
+</html>

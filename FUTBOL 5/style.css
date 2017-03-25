@@ -1,0 +1,53 @@
+body {
+	background: #1c1c1c;
+	color: white;
+	margin: 0px;
+	font-family: Helvetica;
+}
+header {
+	background: #161616;
+	border-left: 20px solid #119e32;
+	border-right: 20px solid #119e32;
+	margin: 0px;
+}
+#día {
+	text-align: right;
+	padding-top: 10px;
+	padding-right: 25px;
+}
+h1 {
+	text-align: center;
+}
+nav {
+	word-spacing: 30px;
+	padding-left: 30px;
+	padding-bottom: 17px;
+	margin: 0px;
+}
+a {
+	font-weight: bold;
+	text-decoration: none;
+	padding-bottom: 16px;
+	color: #a3a3a3;
+}
+a#actual {
+	border-bottom: 2px solid #119e32;
+	color: #119e32;
+}
+a:hover {
+	color: white;
+}
+div#contenido {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+div#pie {
+	padding: px;
+}
+li {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+h4 {
+	color: red;
+}

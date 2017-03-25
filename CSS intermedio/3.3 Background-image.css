@@ -1,0 +1,17 @@
+Background-image
+
+Esta propiedad nos permite añadir un fondo de imagen a la etiqueta que estemos
+diseñando. Debe ponerse una url de la imagen ABSOLUTA o RELATIVA de la
+siguiente manera:
+
+h1 {
+	background-image: url("fondo_tuvieja.jpg");
+}
+
+Los formatos que pueden utilizarse son:
+
+JPG
+GIF
+PNG
+
+En todos los casos las imagenes deben estas en modo RGB.

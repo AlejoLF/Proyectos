@@ -1,0 +1,18 @@
+Background-repeat
+
+Al usar la propiedad background-image, seteamos una imagen de fondo para una etiqueta.
+Si la imagen es muy chica suele repetirse dentro de la etiqueta formando una especie
+de mosaico.
+Para controlar esto usamos la propiedad background-repeat.
+
+Valores:
+
+no-repeat:	Usamos este valor dentro de la propiedad background-repeat para
+		decirle al ordenador que no queremos que la imagen se repita
+		en el fondo de nuestra etiqueta.
+
+repeat-x:	Esta propiedad se usa para que la imagen se repita solo en el
+		eje horizontal, es decir en x.
+
+repeat-y:	Esta propiedad se usa para que la imagen se repita solo en el
+		eje vertical, es decir en y.

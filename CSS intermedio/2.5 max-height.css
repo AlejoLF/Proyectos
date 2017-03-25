@@ -1,0 +1,9 @@
+MAX HEIGHT
+
+Esta propiedad nos permite marcar el tope maximo de una caja
+La altura es variable, lo unico que hacemos es marcar un limite.
+
+Ej:
+	h1 {
+		max-height: 80px;
+	}

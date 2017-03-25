@@ -1,0 +1,19 @@
+Background-attachment
+
+Esta propiedad nos permite diseñar la imagen de fondo cuando nos movemos por la pagina.
+Es decir cuando subimos un bajamos la barra lateral, para desplazarnos en la pagina.
+Por lo general la imagen en una etiqueta se mueve segun nos movamos para arriba o para
+abajo en el navegador.
+
+Valores:
+
+Scroll:	Este valor es el que viene por default, quiere decir que cuando nos movemos
+	por la pagina, la imagen se va a mover segun subamos o bajemos.
+
+Fixed:	Este valor hace que la imagen se quede fija con respecto a nuestro monitor,
+	y no se mueva cuando nos estemos desplazando por la pagina.
+
+Ej:
+h1 {
+	background-attachment: fixed;
+}
