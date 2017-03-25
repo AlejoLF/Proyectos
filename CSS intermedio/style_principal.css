@@ -1,20 +1,20 @@
 body {
 	font-family: Helvetica;
 	margin-left: 15px;
-	background-color: #202621;
+	background-color: #1e1c1c;
 }
 div#contenido {
 	margin-left: 15px;
 	margin-right: 200px;
-	margin-bottom: 80px;
+	margin-bottom: 80px;0
 }
 #sangria {
 	text-indent: 40px;
 }
-article {
-	margin-left: 60px;
+article p {
+	margin-left: 40px;
 	line-height: 6px;
-	display: inline;
+	color: #ff4444;
 }
 a {
 	text-decoration: none;
@@ -32,5 +32,17 @@ footer {
 	text-align: center;
 }
 p {
-	color: #0eb9c9;
+	color: #37d6e5;
+}
+footer p {
+	color: #3f3f3f;
+}
+ul {
+	color: #37d6e5;
+}
+ol {
+	color: #37d6e5;
+}
+h2 {
+	text-transform: uppercase;
 }

@@ -3,15 +3,20 @@
 <head>
 	<title>CSS intermedio</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="style_box_model.css">
+	<link rel="stylesheet" type="text/css" href="../style_principal.css">
 </head>
 <body>
 	<header>
-		<h1>CSS intermedio</h1>
+		<h1><a href="../HOME.html">CSS intermedio</a></h1>
 		<ol>
-			<li><a href="../HOME.html">Home</a></li>
-			<li><a href="../BOX MODEL.html" id="actual">BOX MODEL</a></li>
+			<li><a href="../BOX MODEL.html"  id="actual">Box Model</a></li>
 			<li><a href="../BACKGROUND.html">Background</a></li>
+			<li><a href="../UNIDADES_DE_MEDIDA.html">Unidades de medida</a></li>
+			<li><a href="../SELECTORES_COMPLEJOS.html">Selectores complejos</a></li>
+			<li><a href="../PSEUDO-CLASS.html">Pseudo-class</a></li>
+			<li><a href="../FLOATS.html">Floats</a></li>
+			<li><a href="../LAYOUT.html">Layout con CSS</a></li>
+			<li><a href="../GRILLAS.html">Concepto de grillas</a></li>
 		</ol>
 		<ol>
 			<li><a href="Box-sizing (content-box vs border-box).html">Box-sizing (content-box vs border-box)</a></li>
@@ -30,27 +35,29 @@
 
 		<p>Para hacer esto lo que podemos hacer es setear los parametros del margen izquierdo y el margen derecho en automaticos.</p>
 		<p>Ej:</p>
-		<article>
-			<p>div {</p>
-				<p id="sangria">margin-left: auto;</p>
-				<p id="sangria">margin-right: auto;</p>
-			<p>}
-		</article>
-		<p>Si queremos que la caja se alinie a la derecha o a la izquierda, no que este centrada, lo que debemos hacer es setear en automatico uno solo de los margenes.</p>
-		<p>Ej:</p>
-		<article>
-		<h4>Caja centrada a la izquierda:</h4>			
-			
-		<p>caja {</p>									
-			<p id="sangria">margin-right: auto;</p>
-		<p>}</p>						   				
-		
-		<h4>caja centrada a la derecha:</h4>
-		
-		<p>caja {</p>
-			<p id="sangria">margin-left:auto;</p>
-		<p>}</p>
-		</article>
+		<div id="inline">
+			<article>
+				<p>div {</p>
+					<p id="sangria">margin-left: auto;</p>
+					<p id="sangria">margin-right: auto;</p>
+				<p>}
+			</article>
+				<p>Si queremos que la caja se alinie a la derecha o a la izquierda, no que este centrada, lo que debemos hacer es setear en automatico uno solo de los margenes.</p>
+				<p>Ej:</p>
+				<article>
+				<h4>Caja centrada a la izquierda:</h4>			
+					
+				<p>caja {</p>									
+					<p id="sangria">margin-right: auto;</p>
+				<p>}</p>						   				
+				
+				<h4>caja centrada a la derecha:</h4>
+				
+				<p>caja {</p>
+					<p id="sangria">margin-left:auto;</p>
+				<p>}</p>
+			</article>
+		</div>
 	</div>
 	<footer>
 		<p>Hecho con amor <3</p>

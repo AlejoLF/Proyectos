@@ -1,9 +1,0 @@
-MIN HEIGHT
-
-Esta propiedad nos permite definir el alto minimo de una caja
-Sigue siendo variable el alto, pero definimos un limite minimo.
-
-Ej:
-	h1 {
-		min-height: 30px;
-	}
