@@ -27,7 +27,27 @@
 		</ol>
 	</header>
 	<div id="contenido">
-
+		<h2>Unidad de medida ROOT EM</h2>
+		<p>
+			<strong>ROOT EM</strong> actua exactamente igual que el <strong>EM</strong> nada mas que siempre hace referencia al <strong>font-size</strong> de la etiqueta RAIZ de la pagina, es decir a la etiqueta <strong>HTML</strong>.
+		</p>
+		<p>Ej:</p>
+		<article>
+			<p>html {</p>
+				<p id="sangria">font-size: 20px;</p>
+			<p>}</p>
+			<p>p {</p>
+				<p id="sangria">font-size: 1.5rem;</p>
+			<p>}</p>
+		</article>
+		<p>
+			En este caso el tamaño tipografico de todas las etiquetas <strong>P</strong> estan haciendo referencia al <strong>font-size</strong> de la etiqueta raiz osea a la etiqueta <strong>HTML</strong>.
+		</p>
+		<article>
+			<p>
+				Dando por finalizado el capitulo de unidades de medida aconsejamos utilizar siempre unidades de medida relativas haciendo referencia siempre a una sola medida. Asi luego poder editar o cambiar las medidas mas facilmente en el futuro. 
+			</p>
+		</article>
 	</div>
 	<footer>
 		<p>Hecho con amor <3</p>

@@ -13,8 +13,9 @@ div#contenido {
 }
 article p {
 	margin-left: 40px;
-	line-height: 6px;
 	color: #ff4444;
+	margin-top: 6px;
+	margin-bottom: 6px;
 }
 a {
 	text-decoration: none;

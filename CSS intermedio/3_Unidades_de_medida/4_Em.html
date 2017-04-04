@@ -27,7 +27,39 @@
 		</ol>
 	</header>
 	<div id="contenido">
-
+		<h2>Unidad de medida: EM</h2>
+		<p>
+			La unidad de medida relativa <strong>"EM"</strong> viene de la letra <strong>M</strong>, y depende EXCLUSIVAMENTE del cuerpo tipografico del font-size. Actua como <strong>MULTIPLICADOR</strong> del tamaño tipografico heredado.
+		</p>
+		<p>
+			Es decir si el tamaño tipografico "heredado" es de <em>20px</em>, y queremos que un H1 tenga un tamaño de <em>40px</em> lo que hacemos es ponerle un font-size de <em>2em</em> al H1.
+		</p>
+		<article>
+			<p>body {</p>
+				<p id="sangria">font-size: 20px;</p>
+			<p>}</p>
+			<p>h1 {</p>
+				<p id="sangria">font-size: 2em;</p>
+			<p>}</p>
+		</article>
+		<h2>Em en cajas</h2>
+		<p>
+			A diferencia del <strong>porcentaje</strong>, que se comporta distinto cuando hablamos de medidas de caja, el <em>EM</em> tambien se puede usar en las medidas de caja como el <strong>width</strong> el <strong>height</strong> el <strong>margin</strong>, etc. Pero sigue dependiendo del <strong>font-size</strong>.
+		</p>
+		<p>
+			Entonces si nosotros tenemos un parrafo y queremos que el margen superior e inferior sean del mismo tamaño que el <strong>font-size</strong> aplicamos al <strong>margin-top</strong> y al <strong>margin-bottom</strong> la medida <em>1em</em>.
+		</p>
+		<p>Ej:</p>
+		<article>
+			<p>p {</p>
+				<p id="sangria">font-size: 24px;</p>
+				<p id="sangria">margin-top: 1em;</p>
+				<p id="sangria">margin-bottom: 1em;</p>
+			<p>}</p>
+		</article>
+		<p>
+			Entonces si el dia de mañana modificamos el <strong>font-size</strong> del parrafo, los margenes se van a adaptar a esa medida, ya que son relativos a ella.
+		</p>
 	</div>
 	<footer>
 		<p>Hecho con amor <3</p>

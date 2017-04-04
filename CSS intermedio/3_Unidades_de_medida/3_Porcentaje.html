@@ -27,7 +27,70 @@
 		</ol>
 	</header>
 	<div id="contenido">
-
+		<h2>Porcentaje</h2>
+		<p>
+			La forma de manejar esta medida tiene que ver con el espacio que este elemento tiene disponible.
+		</p>
+		<p>Ej:</p>
+		<article>
+			<p>ul {</p>
+				<p id="sangria">width: 1000px;</p>
+			<p>}</p>
+			<p>li {</p>
+				<p id="sangria">width: 50%;</p>
+			<p>}</p>
+		</article>
+		<p>
+			Como al UL le dijimos de forma ABSOLUTA que tiene que medir 1000px de ancho, y a la etiqueta LI que se encuentra dentro le dijimos que su ancho tiene que ser del 50%. El ancho de la etiqueta LI va a ser de 500px. Ya que el espacio disponible que tiene es de 1000px ( el ancho de su etiqueta "padre" ), 
+		</p>
+		<p>
+			Esta misma idea puede usarse para los MARGENES, al indicar que el margin-right: 25%;, vamos a estar modificando de manera indirecta el tamaño del contenido ya que el espacio que resta va a ser para el contenido.
+		</p>
+		<p>Ej:</p>
+		<article>
+			<p>ul {</p>
+				<p id="sangria">width: 1000px;</p>
+			<p>}</p>
+			<p>li {</p>
+				<p id="sangria">width: 50%;</p>
+				<p id="sangria">margin-right: 25%;</p>
+			<p>}</p>
+		</article>
+		<p>
+			Ahora si el UL pasa a medir 100% del ancho vamos a empezar a usar medidas variables y entonces cuando el usuario agrande o achique el navegador esas cajas van a empezar a achicarse o a agrandarse segun el tamaño de la pantalla.
+		</p>
+		<p>Ej:</p>
+		<article>
+			<p>ul {</p>
+				<p id="sangria">width: 100%;</p>
+			<p>}</p>
+			<p>li {</p>
+				<p id="sangria">width: 50%;</p>
+				<p id="sangria">margin-right: 25%;</p>
+			<p>}</p>
+		</article>
+		<h2>Cuerpo Tipografico</h2>
+		<p>
+			Algo muy interesante es que el porcentaje puede usarse para el tamaño del cuerpo tipografico. Si nosotros le indicamos a un H1 que el tamaño de su cuerpo tipografico debe ser del 200% lo que va a pasar es que su cuerpo tipografico va a aumentar al doble del tamaño que tiene heredado.
+		</p>
+		<p>Ej:</p>
+		<p>
+			Si indicamos que el BODY va a tener su texto en tamaño de 16 px, y luego indicamos que los H1 van a tener un tamaño del 200%, siendo 16px su valor "heredado" el tamaño va a ser de 32px. Luego podriamos indicar que los H2 tengan un tamaño del 50%, etc:
+		</p>
+		<article>
+			<p>body {</p>
+				<p id="sangria">font-size: 16px;</p>
+			<p>}</p>
+			<p>h1 {</p>
+				<p id="sangria">font-size: 200%;</p>
+			<p>}</p>
+			<p>h2 {</p>
+				<p id="sangria">font-size: 50%;</p>
+			<p>}</p>
+		</article>
+		<p>
+			A partir de este momento todos los tamaños del font-size dependen del font-size del body. Entonces si el dia de mañana queremos achicar o agrandar el font-size de todo el sitio, solamente modificamos el font-size del BODY.
+		</p>
 	</div>
 	<footer>
 		<p>Hecho con amor <3</p>
