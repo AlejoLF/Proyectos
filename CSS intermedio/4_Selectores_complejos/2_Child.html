@@ -26,7 +26,38 @@
 		</ol>
 	</header>
 	<div id="contenido">
-
+		<h2>Selector child</h2>
+		<p>
+			Este selector permite seleccionar, valga la redundancia, a todos los elementos " hijos" de una determinada etiqueta. A diferencia de la descendencia como puede ser seleccionar a todos los <strong>LI</strong> que se encuentren dentro de una lista <strong>DESORDENADA</strong>:
+		</p>
+		<article>
+			<p>ul li {</p>
+				<p id="sangria">padding: 30px;</p>
+			<p>}</p>
+		</article>
+		<p>
+			A diferencia de esto.. el selector ">" (CHILD) selecionna a todas las etiquetas que sean directamente descendientes, es decir sus hijos, no sus nietos, ni sus bisnietos. Ej: 
+		</p>
+		<article>
+			<p>ul>li {</p>
+				<p id="sangria">padding: 25%;</p>
+			<p>}</p>
+		</article>
+		<article>
+			<p>
+				De esta manera estamos diseñando a los <strong>LI</strong> que desciendente directamente de una lista desordenada, si dentro de esa lista desordenada hay más listas con más <strong>LI</strong>, no los va a tener en cuenta.
+			</p>
+		</article>
+		<article>
+			<p>div#contenido>p {</p>
+				<p id="sangria">font-size: 25px;</p>
+			<p>}</p>
+		</article>
+		<article>
+			<p>
+				Asi estamos seleccionando solo los <strong>P</strong> que sean hijos directos de un <strong>DIV</strong> con <strong>ID</strong> "contenido". Los <strong>P</strong> que se encuentren dentro de este mismo <strong>DIV</strong> con una profundidad de mas de 1 no se van a tener en cuenta.
+			</p>
+		</article>
 	</div>
 	<footer>
 		<p>Hecho con amor <3</p>

@@ -11,11 +11,20 @@ div#contenido {
 #sangria {
 	text-indent: 40px;
 }
+article {
+	padding-top: 0px; 
+	padding-bottom: 0px;
+	margin-bottom: 18px; 
+	margin-top: 18px;
+}
 article p {
 	margin-left: 40px;
 	color: #ff4444;
-	margin-top: 6px;
-	margin-bottom: 6px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 0px;
+	font-weight: bold;
+	line-height: 18px;
 }
 a {
 	text-decoration: none;
@@ -32,8 +41,10 @@ ol {
 footer {
 	text-align: center;
 }
-p {
+div#contenido>p {
 	color: #37d6e5;
+	font-size: 18px;
+	line-height: 25px;
 }
 footer p {
 	color: #3f3f3f;
@@ -46,4 +57,7 @@ ol {
 }
 h2 {
 	text-transform: uppercase;
+}
+strong {
+	color: #ffffff;
 }

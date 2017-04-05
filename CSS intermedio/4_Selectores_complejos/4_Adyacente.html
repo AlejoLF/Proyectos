@@ -26,7 +26,20 @@
 		</ol>
 	</header>
 	<div id="contenido">
-
+		<h2>Adyacente (+)</h2>
+		<p>
+			En este caso estamos añadiendo un nuevo concepto a los selectores. El selector adyacente nos permite seleccionar, valga la redundancia, a las etiquetas que se encuentran "pegadas" o "seguidas" en el codigo <strong>HTML</strong> es decir que se encuentran una seguida de la otra. Ej:
+		</p>
+		<article>
+			<p>h2 + p {</p>
+				<p id="sangria">font-size: 80%;</p>
+			<p>}</p>
+		</article>
+		<article>
+			<p>
+				De esta manera en el ejemplo estamos seleccionando a todos los <strong>P</strong> que se encuentren justo a continuacion de un <strong>H2</strong>. Es decir solo al parrafo que se encuentre pegado a un titulo de categoria H2.
+			</p>
+		</article>
 	</div>
 	<footer>
 		<p>Hecho con amor <3</p>

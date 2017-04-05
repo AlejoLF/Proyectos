@@ -28,7 +28,23 @@
 		</ol>
 	</header>
 	<div id="contenido">
-
+		<h2>FIRST-CHILD</h2>
+		<p>
+			Ya veniamos hablando de <strong>Pseudo clases</strong> anteriormente. Hemos visto ya <strong>link/visited/hover/active</strong> como pseudo clases, y ahora vamos a amplicar un poco mas nuestra gama.
+		</p>
+		<p>
+			La pseudo class <strong>first-child</strong> nos permite diseñar distinto a cierto elemento que sea el "primer-hijo" de su "padre" es decir de la caja que los contiene. Ej:
+		</p>
+		<article>
+			<p>p:first-child {</p>
+				<p id="sangria">color: black;</p>
+			<p>}</p>
+		</article>
+		<article>
+			<p>
+				De esta manera al tener varios parrafos pero queremos diseñar distinto solo al primer parrafo, lo que podemos hacer es añadir esta pseudo class y estamos seleccionando solo al primer parrafo que se encuentre dentro de su "padre", es decir su caja contenedora.
+			</p>
+		</article>
 	</div>
 	<footer>
 		<p>Hecho con amor <3</p>

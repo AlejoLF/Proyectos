@@ -26,7 +26,45 @@
 		</ol>
 	</header>
 	<div id="contenido">
-
+		<h2>Repaso de selectores simples: descendientes, id, class.</h2>
+		<p>
+			El caso del selector mas simple es el que lleva solamente el nombre de la etiqueta que queremos diseñar:
+		</p>
+		<article>
+			<p>p {</p>
+				<p id="sangria">font-size: 2rem;</p>
+			<p>}</p>
+		</article>
+		<p>
+			Otro caso es el del descendiente. Cuando colocabamos el nombre de una etiqueta seguido de otra con un espacio, indicabamos que esa etiqueta se encontraba dentro de la otra. Es decir, si quiero diseñar todos los <strong>LI</strong> que se encuentran dentro de una <strong>lista</strong> DESORDENADA:</p>
+		</p>
+		<article>
+			<p>ul li {</p>
+				<p id="sangria">font-weight: bold;</p>
+			<p>}</p>
+		</article>
+		<p>
+			Otra posibilidad es diseñar a un elemento particular. Ya sabemos que a los elementos en <strong>HTML</strong> se les puede poner un <strong>ID</strong> único y asi diferenciarlos del resto. En CSS para seleccionar ese elemento con determinado <strong>ID</strong> se coloca el nombre de la etiqueta a la cual queremos diseñar seguido del caracter # (numeral) y el nombre del <strong>ID</strong>:
+		</p>
+		<article>
+			<p>ul#botonera {</p>
+				<p id="sangria">min-width: 250px;</p>
+			<p>}</p>
+			<p>
+				En este caso estamos seleccionando el <strong>UL</strong> que tenga el <STRONG>ID</STRONG> "botonera". Si queremos podemos obviar el <strong>UL</strong> y escribir directamente #botonera.
+			</p>
+		</article>
+		<p>
+			Tambien podemos diseñar a partir de una <strong>CLASS</strong>. La forma de seleccionar elementos en CSS con determinada <strong>CLASS</strong> es a partir del caracter . (punto). Se coloca el nombre de la etiqueta seguido el caracter punto y el nombre de la <strong>CLASS</strong>:
+		</p>
+		<article>
+			<p>p.destacado {</p>
+				<p id="sangria">font-size: 200%;</p>
+			<p>}</p>
+			<p>
+				En este caso queremos diseñar todos los parrafos que tengan la clase destacado. Al igual que los <strong>ID</strong> se puede colocar solo el ".destacado" pero en este caso puede haber mas de un elemento con la misma <strong>CLASS</strong> y puede que no querramos seleccionarlos a todos.
+			</p>
+		</article>
 	</div>
 	<footer>
 		<p>Hecho con amor <3</p>

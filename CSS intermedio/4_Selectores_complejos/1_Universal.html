@@ -26,7 +26,26 @@
 		</ol>
 	</header>
 	<div id="contenido">
-
+		<h2>Selector universal *</h2>
+		<p>
+			El selector universal (*) nos permite diseñar absolutamente a TODOS los elementos del archivo <strong>HTML</strong>. Nos puede servir para por ejemplo: Poder resetear todos los valores que el navegador nos pone por defecto en los <strong>margenes</strong> o en los <strong>paddings</strong>, asi poder empezar de cero:
+		</p>
+		<article>
+			<p>* {</p>
+				<p id="sangria">margin: 0;</p>
+				<p id="sangria">padding: 0;</p>
+			<p>}</p>
+		</article>
+		<article>
+			<p>
+				Este selector puede usarse tambien como descendiente, es decir, si quiero diseñar todos los elementos dentro de un <strong>DIV</strong> con <strong>ID</strong> "caja" puedo usarlo:
+			</p>
+		</article>
+		<article>
+			<p>div#caja * {</p>
+				<p id="sangria">color: red;</p>
+			<p>}</p>			
+		</article> 
 	</div>
 	<footer>
 		<p>Hecho con amor <3</p>
